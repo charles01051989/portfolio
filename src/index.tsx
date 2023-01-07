@@ -6,7 +6,7 @@ import Inicio from "pages/Inicio";
 import Cardapio from "pages/Cardapio";
 import Router from './routes'
 
-const componenteAtual =
+
   window.location.pathname === "/" ? <Inicio /> : <Cardapio />;
 
 const root = ReactDOM.createRoot(
