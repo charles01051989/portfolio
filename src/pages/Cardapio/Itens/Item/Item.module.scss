@@ -9,7 +9,7 @@ $veganos: #80aa40;
 .item {
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
+  width: 100%;
   &__imagem {
     min-width: 240px;
     @media (max-width: $desktop_xsm) {
